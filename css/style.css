@@ -59,6 +59,7 @@ body {
     justify-content: space-evenly;
     width: 20rem;
     border-radius: 1rem;
+    margin-bottom: 2rem;
     transition: box-shadow 0.2s ease;
 }
 
@@ -83,4 +84,6 @@ body {
 .post-box {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
